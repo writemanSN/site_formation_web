@@ -1,0 +1,117 @@
+.menu {
+    display: flex; /* Active le mode Flexbox pour la mise en page */
+    align-items: center; /* Centre verticalement les éléments */
+   /* justify-content:space-between;  Distribue l'espace entre les éléments */
+    background-color: beige; /* Définit la couleur de fond */
+    padding: 10px; /* Ajoute un peu d'espace autour du menu */
+    margin-bottom: 15px;
+}
+
+.menu img {
+    height: 100px; /* Définit la hauteur de l'image */
+}
+
+.menu h2 {
+    margin: 0; /* Supprime la marge par défaut du titre */
+    margin-top: 25px;
+}
+
+.menu ol {
+    display: flex; /* Active Flexbox pour la liste */
+    justify-content: center; /* Centre horizontalement les éléments de la liste */
+    list-style: none; /* Supprime les puces de la liste */
+    padding: 0; /* Supprime le padding par défaut */
+    gap: 30px; /* Ajoute de l'espace entre les éléments de la liste */
+    margin-left: 200px;
+}
+
+.menu li {
+    font-weight: bold;
+}
+.menu li:hover{
+    background-color:aliceblue;
+    padding: 2px;
+}
+
+.menu a {
+    text-decoration: none; /* Supprime le soulignement des liens */
+    color: hsl(0, 31%, 7%); /* Définit la couleur des liens */
+    
+    
+}
+.logo{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    gap: 20px;   
+}
+
+
+.footer {
+    text-align: center; /* Centre le texte dans le pied de page */
+    margin-top: 20px; /* Ajoute de l'espace au-dessus du pied de page */
+}
+
+.pied_page {
+    background-color: #333; /* Couleur de fond du pied de page */
+    color: white; /* Couleur du texte */
+    text-align: center; /* Centre le texte */
+    padding: 20px; /* Ajoute de l'espace à l'intérieur du pied de page */
+    position: relative; /* Positionnement relatif pour un éventuel ajustement */
+    bottom: 0; /* S'assure que le pied de page est en bas */
+    width: 100%; /* Rendre le pied de page pleine largeur */
+}
+
+.pied_page a {
+    color: #4CAF50; /* Couleur des liens */
+    text-decoration: none; /* Supprime le soulignement des liens */
+}
+
+.pied_page a:hover {
+    text-decoration: underline; /* Ajoute un soulignement au survol */
+}
+.champ_menu{
+    margin-left: 70px;
+}
+
+
+
+
+
+.champ{
+    display: flex;
+    align-items: left;
+    
+}
+.input1{
+    margin-left: 143px;
+}
+.input2{
+    margin-left: 100px;
+}
+.input3{
+    margin-left: 203px;
+    width: 341px;
+}
+.input4{
+    margin-left: 185px;
+    width: 341px;
+}
+.input5{
+    margin-left: 240px;
+    width: 341px;
+}
+.input6, .envoyer{
+    margin-left: 240px;
+}
+.input7{
+    margin-left: 240px;
+}
+.zeze{
+    margin-left: 10px;
+}
+.Formulaire{
+    padding: 0px;
+    max-width: 70%;
+    margin-left: 90px;
+}

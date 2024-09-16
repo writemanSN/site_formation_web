@@ -1,0 +1,138 @@
+.menu {
+    display: flex; /* Active le mode Flexbox pour la mise en page */
+    align-items: center; /* Centre verticalement les éléments */
+   /* justify-content:space-between;  Distribue l'espace entre les éléments */
+    background-color: beige; /* Définit la couleur de fond */
+    padding: 10px; /* Ajoute un peu d'espace autour du menu */
+    margin-bottom: 15px;
+}
+
+.menu img {
+    height: 100px; /* Définit la hauteur de l'image */
+}
+
+.menu h2 {
+    margin: 0; /* Supprime la marge par défaut du titre */
+    margin-top: 25px;
+}
+
+.menu ol {
+    display: flex; /* Active Flexbox pour la liste */
+    justify-content: center; /* Centre horizontalement les éléments de la liste */
+    list-style: none; /* Supprime les puces de la liste */
+    padding: 0; /* Supprime le padding par défaut */
+    gap: 30px; /* Ajoute de l'espace entre les éléments de la liste */
+    margin-left: 200px;
+}
+
+.menu li {
+    font-weight: bold;
+}
+.menu li:hover{
+    background-color:aliceblue;
+    padding: 2px;
+}
+
+.menu a {
+    text-decoration: none; /* Supprime le soulignement des liens */
+    color: hsl(0, 31%, 7%); /* Définit la couleur des liens */
+    
+    
+}
+.logo{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    gap: 20px;
+    
+    
+}
+
+.tableau {
+    margin: 20px; /* Ajoute de l'espace autour du tableau */
+}
+
+.tableau h3 {
+    text-align: center; /* Centre le titre du tableau */
+    font-size: 24px; /* Augmente la taille de la police du titre */
+    margin-bottom: 20px; /* Espace en dessous du titre */
+}
+
+table {
+    width: 100%; /* Rendre le tableau plein largeur */
+    border-collapse: collapse; /* Fusionne les bordures des cellules */
+    /*  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);  Ombre autour du tableau */
+}
+
+th, td {
+    padding: 12px; /* Espace à l'intérieur des cellules */
+    text-align: left; /* Aligne le texte à gauche */
+}
+
+th {
+    background-color: #4CAF50; /* Couleur de fond pour l'en-tête */
+    color: white; /* Couleur du texte pour l'en-tête */
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Couleur de fond pour les lignes paires */
+}
+
+tr:hover {
+    background-color: #ddd; /* Change la couleur de fond au survol */
+}
+
+.footer {
+    text-align: center; /* Centre le texte dans le pied de page */
+    margin-top: 20px; /* Ajoute de l'espace au-dessus du pied de page */
+}
+
+.pied_page {
+    background-color: #333; /* Couleur de fond du pied de page */
+    color: white; /* Couleur du texte */
+    text-align: center; /* Centre le texte */
+    padding: 20px; /* Ajoute de l'espace à l'intérieur du pied de page */
+    position: relative; /* Positionnement relatif pour un éventuel ajustement */
+    bottom: 0; /* S'assure que le pied de page est en bas */
+    width: 100%; /* Rendre le pied de page pleine largeur */
+}
+
+.pied_page a {
+    color: #4CAF50; /* Couleur des liens */
+    text-decoration: none; /* Supprime le soulignement des liens */
+}
+
+.pied_page a:hover {
+    text-decoration: underline; /* Ajoute un soulignement au survol */
+}
+
+input{
+    margin-left: 90px;
+    padding: 5px;
+}
+
+.photo{
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+.gris{
+      padding: 15px;
+      border-radius: 10px;
+      text-align: center;
+      background-color: #d8d4d4;
+
+}
+.gris img{
+    height: auto;
+    width: 100%;
+    border-radius: 5px;
+}
+.gris button{
+    padding: 10px 25px;
+    background-color: #4CAF50;
+    color: white;
+
+}

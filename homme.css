@@ -1,0 +1,116 @@
+.menu {
+    display: flex; /* Active le mode Flexbox pour la mise en page */
+    align-items: center; /* Centre verticalement les éléments */
+   /* justify-content:space-between;  Distribue l'espace entre les éléments */
+    background-color: beige; /* Définit la couleur de fond */
+    padding: 10px; /* Ajoute un peu d'espace autour du menu */
+    margin-bottom: 15px;
+}
+
+.menu img {
+    height: 100px; /* Définit la hauteur de l'image */
+}
+
+.menu h2 {
+    margin: 0; /* Supprime la marge par défaut du titre */
+    margin-top: 25px;
+}
+
+.menu ol {
+    display: flex; /* Active Flexbox pour la liste */
+    justify-content: center; /* Centre horizontalement les éléments de la liste */
+    list-style: none; /* Supprime les puces de la liste */
+    padding: 0; /* Supprime le padding par défaut */
+    gap: 30px; /* Ajoute de l'espace entre les éléments de la liste */
+    margin-left: 200px;
+}
+
+.menu li {
+    font-weight: bold;
+}
+.menu li:hover{
+    background-color:aliceblue;
+    padding: 2px;
+}
+
+.menu a {
+    text-decoration: none; /* Supprime le soulignement des liens */
+    color: hsl(0, 31%, 7%); /* Définit la couleur des liens */
+    
+    
+}
+.logo{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    gap: 20px;   
+}
+.footer {
+    text-align: center; /* Centre le texte dans le pied de page */
+    margin-top: 20px; /* Ajoute de l'espace au-dessus du pied de page */
+}
+
+.pied_page {
+    background-color: #333; /* Couleur de fond du pied de page */
+    color: white; /* Couleur du texte */
+    text-align: center; /* Centre le texte */
+    padding: 20px; /* Ajoute de l'espace à l'intérieur du pied de page */
+    position: relative; /* Positionnement relatif pour un éventuel ajustement */
+    bottom: 0; /* S'assure que le pied de page est en bas */
+    width: 100%; /* Rendre le pied de page pleine largeur */
+}
+
+.pied_page a {
+    color: #4CAF50; /* Couleur des liens */
+    text-decoration: none; /* Supprime le soulignement des liens */
+}
+
+.pied_page a:hover {
+    text-decoration: underline; /* Ajoute un soulignement au survol */
+}
+
+input{
+    margin-left: 90px;
+    padding: 5px;
+}
+
+
+
+
+
+
+.photo {
+    display: grid; /* Utilisation de Grid pour aligner les images */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Crée des colonnes flexibles */
+    gap: 20px; /* Ajoute un espace entre les images */
+    justify-items: center; /* Centre horizontalement chaque image */
+    padding: 20px;
+}
+
+.tof {
+    text-align: center; /* Centre le texte en dessous de chaque image */
+    background-color: #f4f4f4; /* Couleur de fond légère pour chaque bloc d'image */
+    border-radius: 8px; /* Coins arrondis */
+    padding: 15px; /* Espace à l'intérieur du bloc */
+
+}
+
+.tof img {
+    max-width: 100%; /* L'image s'adapte à la largeur du conteneur */
+    height: auto; /* Préserve les proportions de l'image */
+    border-radius: 8px; /* Arrondir les coins de l'image */
+}
+
+.tof button {
+    margin-top: 10px; /* Espace entre l'image et le bouton */
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.tof button:hover {
+    background-color: #45a049; /* Couleur plus foncée au survol */
+}
